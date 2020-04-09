@@ -3,6 +3,7 @@ Hack Covid`19
 
 # Package Installtions:
   Sharing my pip3 list below for Python v3.6
+  
   absl-py (0.7.1)
   bokeh (1.3.1)
   Django (1.11.20)
@@ -62,7 +63,7 @@ Hack Covid`19
 
 # Steps to Implement 
   1. Locate your terminal at app.py file
-  2. Make sure that the models dir has the model weights named as "stage-2". If not then download the model weights from       given link : 
+  2. Make sure that the models dir has the model weights named as "stage-2". If not then download the model weights from       given link : https://www.kaggle.com/halfbloodprince16/covid19/output
   3. For loading the fastai model we do require to load model with same params and data which we have used while training. 
   4. So download the Image dataset with the training.csv file to read the classified file from Image dir.
   5. Till the above steps we r done loading our model now Run the app.py file using command $python3 app.py
